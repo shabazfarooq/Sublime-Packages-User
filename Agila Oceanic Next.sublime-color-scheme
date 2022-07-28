@@ -1,0 +1,46 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+  "variables":
+  {
+  },
+  "globals":
+  {
+  },
+  "rules":
+  [
+    // if, else, throw new, return, while
+    // {
+    //     "name": "Keyword",
+    //     "scope": "keyword",
+    //     "foreground": "#74d9c6"
+    // },
+
+    // String, void, 
+    {
+        "name": "Keyword",
+        "scope": "storage.type",
+        "foreground": "#FAC863"
+    },
+
+    // // private static, public with sharing class
+    {
+        "name": "Keyword",
+        "scope": "storage.modifier",
+        "foreground": "#EC5F67"
+    },
+
+    // Method name while defining
+    {
+        "name": "Function",
+        "scope": "entity.name.function",
+        "foreground": "#409dfa"
+    },
+
+    // Method name while calling
+    {
+        "name": "String",
+        "scope": "meta.method.body.java",
+        "foreground": "#6699CC"
+    }
+  ]
+}
